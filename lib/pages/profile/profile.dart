@@ -31,8 +31,7 @@ class ProfilePage extends StatelessWidget {
                   Icons.menu,
                   color: AppColors().textColorDark,
                 ),
-                onPressed: () {
-                })
+                onPressed: () {})
           ],
         ),
         backgroundColor: AppColors().profileBg,
@@ -52,7 +51,9 @@ class ProfilePage extends StatelessWidget {
           child: ListView(
             physics: BouncingScrollPhysics(),
             children: <Widget>[
-              SizedBox(height: 20,),
+              SizedBox(
+                height: 20,
+              ),
               Text(
                 "Hello, Jessika!",
                 textAlign: TextAlign.start,
